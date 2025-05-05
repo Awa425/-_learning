@@ -21,15 +21,24 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/template/lib/animate/animate.min.css",
+              "src/assets/template/lib/owlcarousel/assets/owl.carousel.min.css",
+              "src/assets/template/css/bootstrap.min.css",
+              "src/assets/template/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/template/lib/jquery/jquery.min.js",
+              "src/assets/template/lib/bootstrap/bootstrap.bundle.min.js",
+              "src/assets/template/lib/wow/wow.min.js",
+              "src/assets/template/lib/easing/easing.min.js",
+              "src/assets/template/lib/waypoints/waypoints.min.js",
+              "src/assets/template/lib/owlcarousel/owl.carousel.min.js",
+              "src/assets/template/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
